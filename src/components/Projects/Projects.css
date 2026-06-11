@@ -1,0 +1,50 @@
+.projects {
+  max-width: 1980px;
+  background: #11071f;
+  box-shadow: 0px 6px 22px -3px rgba(0, 0, 0, 0.1);
+  margin: 0 auto;
+  font-family: 'Poppins';
+}
+
+.projects__featured {
+  margin: 0 0 19px;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  color: #9857d3;
+}
+
+.projects__title {
+  margin: 0 0 30px;
+  font-weight: 600;
+  font-size: 34px;
+  line-height: 51px;
+  letter-spacing: 0.02em;
+  color: #ccd6f6;
+}
+
+.projects__container-description {
+  max-width: 669px;
+  background:
+    url(../../assets/images/background-card.png),
+    radial-gradient(
+      90.16% 143.01% at 15.32% 21.04%,
+      rgba(105, 59, 147, 0.2) 0%,
+      rgba(110, 191, 244, 0.0447917) 77.08%,
+      rgba(70, 144, 213, 0) 100%
+    );
+  background-blend-mode: overlay, normal;
+  backdrop-filter: blur(40px);
+  border-radius: 14px;
+}
+
+.projects__text {
+  margin: 0;
+  padding: 26px 50px 31px 34px;
+  max-width: 585px;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+  color: #ccd6f6;
+}

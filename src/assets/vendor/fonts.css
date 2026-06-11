@@ -1,0 +1,39 @@
+@font-face {
+  src:
+    url('./fonts/plus-jakarta-sans-semi-bold-600.woff2') format('woff2'),
+    url('./fonts/plus-jakarta-sans-semi-bold-600.woff') format('woff');
+  font-family: 'Plus Jakarta Sans';
+  font-weight: 600;
+}
+
+@font-face {
+  src:
+    url('./fonts/audiowide-regular.woff2') format('woff2'),
+    url('./fonts/audiowide-regular.woff') format('woff');
+  font-family: 'Audiowide';
+  font-weight: 400;
+}
+
+@font-face {
+  src:
+    url('./fonts/preahvihear-regular.woff2') format('woff2'),
+    url('./fonts/preahvihear-regular.woff') format('woff');
+  font-family: 'Preahvihear';
+  font-weight: 400;
+}
+
+@font-face {
+  src:
+    url('./fonts/poppins-medium.woff2') format('woff2'),
+    url('./fonts/poppins-medium.woff') format('woff');
+  font-family: 'Poppins';
+  font-weight: 500;
+}
+
+@font-face {
+  src:
+    url('./fonts/poppins-semibold.woff2') format('woff2'),
+    url('./fonts/poppins-semibold.woff') format('woff');
+  font-family: 'Poppins';
+  font-weight: 600;
+}
