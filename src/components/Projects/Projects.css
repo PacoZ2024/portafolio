@@ -6,6 +6,15 @@
   font-family: 'Poppins';
 }
 
+.projects__resumen {
+  max-width: 1300px;
+  margin: 0 auto;
+  padding: 90px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
 .projects__featured {
   margin: 0 0 19px;
   font-weight: 600;
@@ -47,4 +56,34 @@
   font-size: 18px;
   line-height: 27px;
   color: #ccd6f6;
+}
+
+.projects__container-links {
+  max-width: 585px;
+  margin: 36px 0 0 42px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.projects__link {
+  color: white;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+}
+
+.projects__link-image {
+  margin: 0;
+  padding-right: 10px;
+  width: 31px;
+  height: 31px;
+}
+
+.projects__link-image:hover {
+  cursor: pointer;
+}
+
+.projects__portrait {
+  max-width: 582px;
+  object-fit: contain;
 }
