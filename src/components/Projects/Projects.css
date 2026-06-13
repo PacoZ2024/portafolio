@@ -9,7 +9,6 @@
 .projects__resumen {
   max-width: 1300px;
   margin: 0 auto;
-  padding: 90px 0;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -24,6 +23,16 @@
   color: #9857d3;
 }
 
+.projects__featured-right {
+  margin: 0 0 19px;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  color: #9857d3;
+  text-align: right;
+}
+
 .projects__title {
   margin: 0 0 30px;
   font-weight: 600;
@@ -33,10 +42,35 @@
   color: #ccd6f6;
 }
 
+.projects__title-right {
+  margin: 0 0 30px;
+  font-weight: 600;
+  font-size: 34px;
+  line-height: 51px;
+  letter-spacing: 0.02em;
+  color: #ccd6f6;
+  text-align: right;
+}
+
 .projects__container-description {
   max-width: 669px;
   background:
     url(../../assets/images/background-card.png),
+    radial-gradient(
+      90.16% 143.01% at 15.32% 21.04%,
+      rgba(105, 59, 147, 0.2) 0%,
+      rgba(110, 191, 244, 0.0447917) 77.08%,
+      rgba(70, 144, 213, 0) 100%
+    );
+  background-blend-mode: overlay, normal;
+  backdrop-filter: blur(40px);
+  border-radius: 14px;
+}
+
+.projects__container-description-right {
+  max-width: 669px;
+  background:
+    url(../../assets/images/background-card-right.png),
     radial-gradient(
       90.16% 143.01% at 15.32% 21.04%,
       rgba(105, 59, 147, 0.2) 0%,
@@ -83,7 +117,78 @@
   cursor: pointer;
 }
 
+.projects__container-portrait {
+  display: flex;
+  justify-content: center;
+  width: 625px;
+  height: 625px;
+  background: radial-gradient(
+    50% 50% at 50% 50%,
+    #763cac 0%,
+    rgba(50, 15, 133, 0) 100%
+  );
+}
+
 .projects__portrait {
   max-width: 582px;
   object-fit: contain;
+}
+
+.projects__tutorial {
+  background: radial-gradient(
+    50% 50% at 50% 50%,
+    #763cac 0%,
+    rgba(50, 15, 133, 0) 100%
+  );
+}
+
+.projects__tutorial-title {
+  max-width: 1160px;
+  margin: 0 auto;
+  color: #ccd6f6;
+  font-weight: 500;
+  font-size: 44px;
+  line-height: 52px;
+}
+
+.projects__tutorial-subtitle {
+  max-width: 1160px;
+  margin: 24px auto 80px;
+  color: #ccd6f6;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.projects__videos {
+  max-width: 1160px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: auto auto;
+  gap: 40px;
+  justify-content: center;
+  padding-bottom: 100px;
+}
+
+.projects__video-item {
+  display: flex;
+  flex-direction: column;
+  row-gap: 24px;
+}
+
+.projects__iframe {
+  border: none;
+  height: 315px;
+  width: 560px;
+}
+
+.projects__video-caption {
+  max-width: 560px;
+  margin: 0;
+  color: #ffffff;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  display: flex;
+  justify-content: space-between;
 }
