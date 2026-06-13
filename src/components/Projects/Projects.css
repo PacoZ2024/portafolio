@@ -99,6 +99,14 @@
   justify-content: space-between;
 }
 
+.projects__container-links-width {
+  max-width: 350px;
+}
+
+.projects__container-links-right {
+  margin-left: auto;
+}
+
 .projects__link {
   color: white;
   text-decoration: none;

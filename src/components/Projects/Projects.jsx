@@ -1,6 +1,10 @@
 import iconLink from '../../assets/images/icon-link.png';
 import portadaNewsExplorer from '../../assets/images/portada-news-explorer.jpg';
 import portadaAroundTheUS from '../../assets/images/portada-around-the-us.png';
+import portadaHomeland from '../../assets/images/portada-homeland.jpg';
+import portadaCoffeeShop from '../../assets/images/portada-coffee-shop.jpg';
+import portadaLibrary from '../../assets/images/portada-library.jpg';
+import portadaAboutMe from '../../assets/images/portada-about-me.jpg';
 
 export default function projects() {
   return (
@@ -213,6 +217,196 @@ export default function projects() {
             <p className='projects__video-caption'>
               <span>Editar perfil y guardar imágenes</span> <span>~4 mins</span>
             </p>
+          </div>
+        </div>
+      </section>
+      <section className='projects__resumen'>
+        <div>
+          <p className='projects__featured'>Proyecto del Bootcamp, TripleTen</p>
+          <h4 className='projects__title'>Homeland (De Patria a Patria)</h4>
+          <div className='projects__container-description'>
+            <p className='projects__text'>
+              Desarrollé una landing page responsiva que mapea las ciudades
+              natales del equipo de Triple Ten. Optimicé la carga integrando la
+              tipografía localmente, logrando una interfaz adaptable y de alto
+              rendimiento.
+            </p>
+          </div>
+          <div className='projects__container-links projects__container-links-width'>
+            <a
+              className='projects__link'
+              href='https://pacoz2024.github.io/web_project_homeland'
+              target='_blank'
+            >
+              <img
+                className='projects__link-image'
+                src={iconLink}
+                alt='Icono para enlace'
+              />
+              Aplicación
+            </a>
+            <a
+              className='projects__link'
+              href='https://github.com/PacoZ2024/web_project_homeland'
+              target='_blank'
+            >
+              <img
+                className='projects__link-image'
+                src={iconLink}
+                alt='Icono para enlace'
+              />
+              Frontend
+            </a>
+          </div>
+        </div>
+        <div className='projects__container-portrait'>
+          <img
+            className='projects__portrait'
+            src={portadaHomeland}
+            alt='Portada del proyecto Homeland'
+          />
+        </div>
+      </section>
+      <section className='projects__resumen'>
+        <div className='projects__container-portrait'>
+          <img
+            className='projects__portrait'
+            src={portadaCoffeeShop}
+            alt='Portada del proyecto Cafetería Triple Espresso'
+          />
+        </div>
+        <div>
+          <p className='projects__featured-right'>
+            Proyecto del Bootcamp, TripleTen
+          </p>
+          <h4 className='projects__title-right'>Cafetería Triple Espresso</h4>
+          <div className='projects__container-description-right'>
+            <p className='projects__text'>
+              El sitio ofrece una experiencia interactiva que permite al usuario
+              consultar recetas de café, reservar mesas y contactar al negocio a
+              través de formularios personalizados con validación nativa.
+            </p>
+          </div>
+          <div className='projects__container-links projects__container-links-width projects__container-links-right'>
+            <a
+              className='projects__link'
+              href='https://pacoz2024.github.io/web_project_coffeeshop'
+              target='_blank'
+            >
+              <img
+                className='projects__link-image'
+                src={iconLink}
+                alt='Icono para enlace'
+              />
+              Aplicación
+            </a>
+            <a
+              className='projects__link'
+              href='https://github.com/PacoZ2024/web_project_coffeeshop'
+              target='_blank'
+            >
+              <img
+                className='projects__link-image'
+                src={iconLink}
+                alt='Icono para enlace'
+              />
+              Frontend
+            </a>
+          </div>
+        </div>
+      </section>
+      <section className='projects__resumen'>
+        <div>
+          <p className='projects__featured'>Proyecto del Bootcamp, TripleTen</p>
+          <h4 className='projects__title'>Biblioteca Triple Peaks</h4>
+          <div className='projects__container-description'>
+            <p className='projects__text'>
+              Desarrollé una página web para la biblioteca Triple Peaks que
+              permite al usuario conocer las publicaciones recomendadas, los
+              próximos eventos, los pasos a seguir para ser miembro; así como
+              los horarios de apertura y sus redes sociales.
+            </p>
+          </div>
+          <div className='projects__container-links projects__container-links-width'>
+            <a
+              className='projects__link'
+              href='https://pacoz2024.github.io/web_project_library_es'
+              target='_blank'
+            >
+              <img
+                className='projects__link-image'
+                src={iconLink}
+                alt='Icono para enlace'
+              />
+              Aplicación
+            </a>
+            <a
+              className='projects__link'
+              href='https://github.com/PacoZ2024/web_project_library_es'
+              target='_blank'
+            >
+              <img
+                className='projects__link-image'
+                src={iconLink}
+                alt='Icono para enlace'
+              />
+              Frontend
+            </a>
+          </div>
+        </div>
+        <div className='projects__container-portrait'>
+          <img
+            className='projects__portrait'
+            src={portadaLibrary}
+            alt='Portada del proyecto Biblioteca Triple Peaks'
+          />
+        </div>
+      </section>
+      <section className='projects__resumen'>
+        <div className='projects__container-portrait'>
+          <img
+            className='projects__portrait'
+            src={portadaAboutMe}
+            alt='Portada del proyecto Acerca de mí'
+          />
+        </div>
+        <div>
+          <p className='projects__featured-right'>
+            Proyecto del Bootcamp, TripleTen
+          </p>
+          <h4 className='projects__title-right'>Acerca de mí</h4>
+          <div className='projects__container-description-right'>
+            <p className='projects__text'>
+              Desarrollé mi primer proyecto independiente en el Bootcamp de
+              Desarrollo Web en Triple Ten. En este proyecto hablo un poco sobre
+              mí y mis aficiones.
+            </p>
+          </div>
+          <div className='projects__container-links projects__container-links-width projects__container-links-right'>
+            <a
+              className='projects__link'
+              href='https://pacoz2024.github.io/web_project_about_me'
+              target='_blank'
+            >
+              <img
+                className='projects__link-image'
+                src={iconLink}
+                alt='Icono para enlace'
+              />
+              Aplicación
+            </a>
+            <a
+              className='projects__link'
+              href='https://github.com/PacoZ2024/web_project_about_me'
+              target='_blank'
+            >
+              <img
+                className='projects__link-image'
+                src={iconLink}
+                alt='Icono para enlace'
+              />
+              Frontend
+            </a>
           </div>
         </div>
       </section>
