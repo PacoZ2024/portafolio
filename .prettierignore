@@ -1,0 +1,18 @@
+# Carpetas que no se deben tocar (porque se crean solas)
+node_modules/
+dist/
+build/
+coverage
+
+# Archivos de texto o configuración que no hace falta ordenar
+README.md
+package.json
+package-lock.json
+
+# Archivos ocultos del sistema
+.env
+.env.*
+.vscode/
+
+# Evita que Prettier altere el código de Normalize
+src/assets/vendor/normalize.css
