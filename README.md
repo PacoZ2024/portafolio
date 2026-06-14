@@ -14,7 +14,7 @@ Aquí tienes un vistazo a las principales herramientas y tecnologías que utilic
 
 • Despliegue: [GitHub Pages]
 
-### Características principales
+## Características principales
 
 • Sección "Acerca de mí": Un espacio para conocer mi perfil profesional, mis pasiones y mi enfoque hacia el desarrollo de software.
 
@@ -22,7 +22,7 @@ Aquí tienes un vistazo a las principales herramientas y tecnologías que utilic
 
 • Contacto:Integrado para recibir mensajes directos de manera rápida.
 
-#### Contacto
+## Contacto
 
 ¿Te gustaría colaborar, hacer una pregunta o simplemente saludar? ¡Conectemos!
 
