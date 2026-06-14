@@ -18,14 +18,15 @@ export default function Main() {
             ¡Hola! Soy{' '}
             <span className='main__text-underlined'>Francisco Zepeda</span>
           </p>
-          <p className='main__paragraph'>Un desarrollador que</p>
+          <p className='main__paragraph'>Un Desarrollador Web que</p>
           <p className='main__title'>
-            Juzga un libro por su{' '}
-            <span className='main__title-underlined'>portada</span>
+            Construye código{' '}
+            <span className='main__title-underlined'>limpio</span> y{' '}
+            <span className='main__title-underlined'>ordenado</span>
             ...
           </p>
           <p className='main__subtitle'>
-            Porque si la portada no te impresiona, ¿qué otra cosa lo hará?
+            ... para funcionar hoy y programado para escalar mañana.
           </p>
         </div>
       </div>
