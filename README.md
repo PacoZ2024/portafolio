@@ -2,7 +2,7 @@
 
 ¡Bienvenido al repositorio de mi portafolio web personal! Este proyecto refleja mi trayectoria, habilidades y los proyectos más destacados en los que he trabajado como desarrollador web.
 
-Puedes verlo en el siguiente enlace: 
+Puedes verlo en el siguiente enlace: https://pacoz2024.github.io/portafolio/
 
 ## Tecnologías utilizadas
 
@@ -24,3 +24,4 @@ Aquí tienes un vistazo a las principales herramientas y tecnologías que utilic
 
 • LinkedIn: https://www.linkedin.com/in/fcozepedadev
 • Email: josefrancisco@ciencias.unam.mx
+• GitHub: https://github.com/PacoZ2024
