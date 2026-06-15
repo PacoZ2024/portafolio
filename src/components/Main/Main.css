@@ -97,6 +97,10 @@
 }
 
 @media screen and (max-width: 800px) {
+  .main {
+    padding-bottom: 80px;
+  }
+
   .main__container-image {
     height: 215px;
     width: 192px;
@@ -185,6 +189,7 @@
 
   .main__title {
     font-size: 18px;
+    line-height: 45px;
   }
 
   .main__title-underlined {
