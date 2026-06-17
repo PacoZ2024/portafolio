@@ -404,3 +404,121 @@
     font-size: 16px;
   }
 }
+
+@media screen and (max-width: 580px) {
+  .projects__title,
+  .projects__title-right {
+    max-width: 440px;
+  }
+
+  .projects__container-description,
+  .projects__container-description-right {
+    max-width: 440px;
+  }
+
+  .projects__container-portrait {
+    width: 440px;
+  }
+
+  .projects__portrait {
+    max-width: 440px;
+  }
+
+  .projects__tutorial-title {
+    max-width: 440px;
+  }
+
+  .projects__tutorial-subtitle {
+    max-width: 440px;
+  }
+
+  .projects__videos {
+    max-width: 440px;
+  }
+
+  .projects__iframe {
+    width: 440px;
+    height: auto;
+    aspect-ratio: 16/9;
+  }
+}
+
+@media screen and (max-width: 470px) {
+  .projects__featured,
+  .projects__featured-right {
+    font-size: 14px;
+    margin-bottom: 15px;
+  }
+
+  .projects__title,
+  .projects__title-right {
+    font-size: 25px;
+    line-height: 30px;
+    max-width: 320px;
+  }
+
+  .projects__text {
+    font-size: 15px;
+    padding: 10px;
+    line-height: 20px;
+  }
+
+  .projects__container-links {
+    margin-top: 10px;
+  }
+
+  .projects__link {
+    font-size: 13px;
+  }
+
+  .projects__link-image {
+    padding-right: 0;
+    width: 20px;
+    height: 20px;
+  }
+
+  .projects__container-description,
+  .projects__container-description-right {
+    max-width: 320px;
+  }
+
+  .projects__container-portrait {
+    width: 320px;
+    height: 300px;
+  }
+
+  .projects__portrait {
+    max-width: 320px;
+  }
+
+  .projects__tutorial-title {
+    font-size: 25px;
+    max-width: 320px;
+  }
+
+  .projects__tutorial-subtitle {
+    margin: 0 auto 15px;
+    font-size: 15px;
+    text-align: justify;
+    max-width: 320px;
+  }
+
+  .projects__videos {
+    max-width: 320px;
+    gap: 25px;
+  }
+
+  .projects__iframe {
+    width: 320px;
+    height: auto;
+    aspect-ratio: 16/9;
+  }
+
+  .projects__video-item {
+    row-gap: 0;
+  }
+
+  .projects__video-caption {
+    font-size: 14px;
+  }
+}
