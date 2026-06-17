@@ -120,7 +120,7 @@ export default function projects() {
           </div>
         </div>
       </section>
-      <section className='projects__resumen'>
+      <section className='projects__resumen projects__resumen-column-reverse'>
         <div className='projects__container-portrait'>
           <img
             className='projects__portrait'
@@ -267,7 +267,7 @@ export default function projects() {
           />
         </div>
       </section>
-      <section className='projects__resumen'>
+      <section className='projects__resumen projects__resumen-column-reverse'>
         <div className='projects__container-portrait'>
           <img
             className='projects__portrait'
@@ -362,7 +362,7 @@ export default function projects() {
           />
         </div>
       </section>
-      <section className='projects__resumen'>
+      <section className='projects__resumen projects__resumen-column-reverse'>
         <div className='projects__container-portrait'>
           <img
             className='projects__portrait'

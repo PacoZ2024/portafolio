@@ -349,4 +349,58 @@
 }
 
 @media screen and (max-width: 970px) {
+  .projects__resumen {
+    flex-direction: column;
+  }
+
+  .projects__resumen-column-reverse {
+    flex-direction: column-reverse;
+  }
+
+  .projects__featured {
+    padding-top: 50px;
+  }
+
+  .projects__featured-right {
+    padding-top: 50px;
+  }
+
+  .projects__container-portrait {
+    width: 500px;
+    height: 400px;
+  }
+
+  .projects__portrait {
+    max-width: 500px;
+  }
+
+  .projects__tutorial-title {
+    max-width: 560px;
+  }
+
+  .projects__tutorial-subtitle {
+    max-width: 560px;
+  }
+
+  .projects__videos {
+    padding-bottom: 50px;
+    max-width: 560px;
+    grid-template-columns: 1fr;
+  }
+
+  .projects__video-item-left {
+    grid-column: auto;
+  }
+
+  .projects__video-item-right {
+    grid-column: auto;
+  }
+
+  .projects__video-item {
+    row-gap: 5px;
+  }
+
+  .projects__video-caption {
+    font-size: 16px;
+  }
 }
