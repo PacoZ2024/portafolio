@@ -200,3 +200,153 @@
   display: flex;
   justify-content: space-between;
 }
+
+@media screen and (max-width: 1350px) {
+  .projects__resumen {
+    max-width: 1180px;
+  }
+
+  .projects__featured {
+    max-width: 550px;
+  }
+
+  .projects__featured-right {
+    max-width: 550px;
+  }
+
+  .projects__title {
+    max-width: 550px;
+  }
+
+  .projects__title-right {
+    max-width: 550px;
+  }
+
+  .projects__container-description {
+    max-width: 550px;
+  }
+
+  .projects__container-description-right {
+    max-width: 550px;
+  }
+
+  .projects__text {
+    padding: 15px;
+    text-align: justify;
+  }
+
+  .projects__container-links {
+    margin-left: 0;
+  }
+
+  .projects__container-portrait {
+    width: 600px;
+    height: 600px;
+  }
+
+  .projects__container-links-right {
+    margin-left: auto;
+  }
+}
+
+@media screen and (max-width: 1220px) {
+  .projects__resumen {
+    max-width: 1080px;
+  }
+
+  .projects__container-portrait {
+    width: 500px;
+  }
+
+  .projects__portrait {
+    max-width: 500px;
+  }
+
+  .projects__tutorial-title {
+    max-width: 1020px;
+  }
+
+  .projects__tutorial-subtitle {
+    max-width: 1020px;
+    margin-bottom: 50px;
+  }
+
+  .projects__videos {
+    max-width: 1020px;
+    grid-template-columns: 1fr 100px 1fr;
+  }
+
+  .projects__video-item-left {
+    grid-column: 1/3;
+  }
+
+  .projects__video-item-right {
+    grid-column: 2/4;
+  }
+}
+
+@media screen and (max-width: 1130px) {
+  .projects__resumen {
+    max-width: 930px;
+  }
+
+  .projects__title {
+    max-width: 500px;
+    font-size: 30px;
+    line-height: 40px;
+    margin-bottom: 20px;
+  }
+
+  .projects__title-right {
+    max-width: 500px;
+    font-size: 30px;
+    line-height: 40px;
+    margin-bottom: 20px;
+  }
+
+  .projects__text {
+    max-width: 500px;
+    font-size: 16px;
+    line-height: 25px;
+  }
+
+  .projects__container-description {
+    max-width: 500px;
+  }
+
+  .projects__container-description-right {
+    max-width: 500px;
+  }
+
+  .projects__container-links {
+    margin-top: 20px;
+  }
+
+  .projects__container-portrait {
+    width: 400px;
+    height: 500px;
+  }
+
+  .projects__portrait {
+    max-width: 400px;
+  }
+
+  .projects__tutorial-title {
+    max-width: 930px;
+    font-size: 30px;
+  }
+
+  .projects__tutorial-subtitle {
+    max-width: 930px;
+    font-size: 16px;
+    margin-bottom: 30px;
+  }
+
+  .projects__videos {
+    max-width: 930px;
+    grid-template-columns: 1fr 190px 1fr;
+  }
+}
+
+@media screen and (max-width: 970px) {
+}

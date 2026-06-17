@@ -76,7 +76,7 @@ export default function projects() {
           resolver tus dudas
         </h3>
         <div className='projects__videos'>
-          <div className='projects__video-item'>
+          <div className='projects__video-item projects__video-item-left'>
             <iframe
               className='projects__iframe'
               src='https://www.youtube.com/embed/rGXtQ26b4O0?si=KChBDdYFwA7g5E6r'
@@ -90,7 +90,7 @@ export default function projects() {
               <span>Registro e inicio de sesión</span> <span>~1 min</span>
             </p>
           </div>
-          <div className='projects__video-item'>
+          <div className='projects__video-item projects__video-item-right'>
             <iframe
               className='projects__iframe'
               src='https://www.youtube.com/embed/Yar6DEw9vO0?si=1I1nwX_EI1-V_JnE'
@@ -104,7 +104,7 @@ export default function projects() {
               <span>Búsqueda de artículos</span> <span>~1 min</span>
             </p>
           </div>
-          <div className='projects__video-item'>
+          <div className='projects__video-item projects__video-item-left'>
             <iframe
               className='projects__iframe'
               src='https://www.youtube.com/embed/tRPZ3xG0GtM?si=DPMvz7rJAVgSljVm'
@@ -190,7 +190,7 @@ export default function projects() {
           resolver tus dudas
         </h3>
         <div className='projects__videos'>
-          <div className='projects__video-item'>
+          <div className='projects__video-item projects__video-item-left'>
             <iframe
               className='projects__iframe'
               src='https://www.youtube.com/embed/wRER9oWY5bI?si=jNtCAX5yULtqFgSz'
@@ -204,7 +204,7 @@ export default function projects() {
               <span>Registro e inicio de sesión</span> <span>~2 mins</span>
             </p>
           </div>
-          <div className='projects__video-item'>
+          <div className='projects__video-item projects__video-item-right'>
             <iframe
               className='projects__iframe'
               src='https://www.youtube.com/embed/GarknWk30z8?si=nMdQyXruEVjmleDh'
