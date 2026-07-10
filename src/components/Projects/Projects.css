@@ -122,6 +122,12 @@
   }
 }
 
+.projects__link:focus-visible {
+  outline: 2px solid #007bff;
+  outline-offset: 3px;
+  border-radius: 5px;
+}
+
 .projects__link-image {
   margin: 0;
   padding-right: 10px;
