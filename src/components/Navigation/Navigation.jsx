@@ -2,6 +2,7 @@ import { useState, useEffect, useRef } from 'react';
 import { useLocation } from 'react-router-dom';
 import { Squash as Hamburger } from 'hamburger-react';
 import { Link } from 'react-router-dom';
+import { Link as ScrollLink } from 'react-scroll';
 
 export default function Navigation() {
   const [toggledIsOpen, setToggledIsOpen] = useState(false);
@@ -54,9 +55,14 @@ export default function Navigation() {
             </Link>
           </li>
           <li className='navigation__link-container'>
-            <a className='navigation__link' href='#footer'>
+            <ScrollLink
+              className='navigation__link'
+              to='footer'
+              smooth={true}
+              duration={500}
+            >
               Contacto
-            </a>
+            </ScrollLink>
           </li>
         </ul>
       </div>
@@ -93,13 +99,15 @@ export default function Navigation() {
               </Link>
             </li>
             <li>
-              <a
+              <ScrollLink
                 className='navigation__link'
-                href='#footer'
+                to='footer'
+                smooth={true}
+                duration={500}
                 onClick={closeToggled}
               >
                 Contacto
-              </a>
+              </ScrollLink>
             </li>
           </ul>
         )}
