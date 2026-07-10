@@ -44,6 +44,10 @@
   line-height: 27px;
 }
 
+.footer__column-link:hover {
+  color: #7127ba;
+}
+
 .footer__social-icon {
   width: 16px;
   height: 16px;
