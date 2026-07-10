@@ -104,6 +104,7 @@ export default function Navigation() {
                 to='footer'
                 smooth={true}
                 duration={500}
+                offset={100}
                 onClick={closeToggled}
               >
                 Contacto
