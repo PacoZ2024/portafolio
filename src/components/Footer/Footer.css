@@ -44,8 +44,10 @@
   line-height: 27px;
 }
 
+@media (hover: hover) and (pointer: fine) {
 .footer__column-link:hover {
   color: #7127ba;
+}
 }
 
 .footer__social-icon {

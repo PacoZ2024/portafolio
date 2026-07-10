@@ -114,10 +114,12 @@
   align-items: center;
 }
 
-.projects__link:hover {
-  color: #7127ba;
-  filter: brightness(0) saturate(100%) invert(19%) sepia(73%) saturate(3310%)
-    hue-rotate(263deg) brightness(86%) contrast(97%);
+@media (hover: hover) and (pointer: fine) {
+  .projects__link:hover {
+    color: #7127ba;
+    filter: brightness(0) saturate(100%) invert(19%) sepia(73%) saturate(3310%)
+      hue-rotate(263deg) brightness(86%) contrast(97%);
+  }
 }
 
 .projects__link-image {

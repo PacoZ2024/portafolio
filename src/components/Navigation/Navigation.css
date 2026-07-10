@@ -37,8 +37,10 @@
   cursor: pointer;
 }
 
-.navigation__link:hover {
-  color: #7127ba;
+@media (hover: hover) and (pointer: fine) {
+  .navigation__link:hover {
+    color: #7127ba;
+  }
 }
 
 .navigation__link:focus-visible {
