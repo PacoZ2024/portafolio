@@ -110,7 +110,7 @@
 
 @media screen and (max-width: 400px) {
   .footer {
-    padding: 30px 30px;
+    padding: 30px 30px 70px;
   }
 
   .footer__column-heading {
